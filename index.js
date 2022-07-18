@@ -77,6 +77,7 @@ app.post('/users', (req, res, next) => {
 app.patch('/users/:id', (req, res, next) => {
     console.log(req.params.id)
     console.log(req.body)
+    // console.log(req.query)
     
     let usersAsString = fs.readFileSync(USER_DATA_PATH).toString()
 
