@@ -1,14 +1,1 @@
-[
-    {
-        "id": 1,
-        "full_name": "zeffry baron alafanta",
-        "address" : "Spanyol",
-        "age": 22
-    },
-    {
-        "id": 2,
-        "full_name": "namika",
-        "address" : "German",
-        "age": 22
-    }
-]
+[{"id":1,"full_name":"zeffry baron alafanta","address":"Spanyol","age":22},{"id":2,"full_name":"Misaki Siapa","address":"Japan","age":20},{"id":1658139083891,"full_name":"Misaki Siapa","address":"japan","age":20},{"id":1,"full_name":"Misaki Siapa","address":"japan","age":2040},{"id":1,"full_name":"Misaki Siapa","address":"japan","age":20},{"id":1,"full_name":"Misaki Siapa","address":"japan","age":50},{"id":1658146907327,"full_name":"Misaki Siapa kamu","address":"japan","age":33},{"id":1658156790128,"full_name":"Misaki Siapa kamu","address":"japan","age":33},{"id":1658156790703,"full_name":"Misaki Siapa kamu","address":"japan","age":33},{"id":1658156791058,"full_name":"Misaki Siapa kamu","address":"japan","age":33},{"id":1658156792572,"full_name":"Misaki Siapa kamu","address":"japan","age":33},{"id":1658156793337,"full_name":"Misaki Siapa kamu","address":"japan","age":33},{"id":1658156793844,"full_name":"Misaki Siapa kamu","address":"japan","age":33},{"id":1658156794400,"full_name":"Misaki Siapa kamu","address":"japan","age":33}]
