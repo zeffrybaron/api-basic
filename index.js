@@ -21,6 +21,12 @@ app.get('/hello', (req, res, next) => {
 
 app.use('/users', userRouter)
 
+app.use('*', (req, res, next) => {
+    return res.status(404).json({
+        message: 'endpoint not found'
+    })
+})
+
 app.listen(port, () => {
     console.log(`server running on port ${port}`)
 })
