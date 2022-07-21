@@ -14,10 +14,10 @@ const getUsers = (req, res, next) => {
 
     if (!isUserExist) {
         // kalo ngga ada data, maka return status code 404
-       throw {
-           code: 404,
-           message: 'user tidak ditemukan'
-       }
+        throw {
+            code: 404,
+            message:  'user tidak ditemukan'
+        }
     }
 
     // kalo ada data, return datanya
