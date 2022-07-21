@@ -21,9 +21,22 @@ app.get('/hello', (req, res, next) => {
 
 app.use('/users', userRouter)
 
+// 404 middleware
 app.use('*', (req, res, next) => {
     return res.status(404).json({
         message: 'endpoint not found'
+    })
+})
+
+// error middlaware
+app.use((err, req, res, next) => {
+    console.log(err)
+
+    const status = err.code || 500
+    const message = err.message || 'internal server error'
+
+    return res.status(status).json({
+        message
     })
 })
 
